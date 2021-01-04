@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		91AC7B1C25A30FB400C06AD0 /* RRuleSwift_macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 91AC7B1A25A30FB400C06AD0 /* RRuleSwift_macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91AC7B2325A30FDE00C06AD0 /* NSDate+Comparison.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB48D1591D641D45001EE872 /* NSDate+Comparison.swift */; };
+		91AC7B2425A30FDE00C06AD0 /* ExclusionDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB48D1521D641D45001EE872 /* ExclusionDate.swift */; };
+		91AC7B2525A30FDE00C06AD0 /* EKWeekday+RRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB48D1511D641D45001EE872 /* EKWeekday+RRule.swift */; };
+		91AC7B2625A30FDE00C06AD0 /* RecurrenceFrequency.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB48D15A1D641D45001EE872 /* RecurrenceFrequency.swift */; };
+		91AC7B2725A30FDE00C06AD0 /* InclusionDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB48D1541D641D45001EE872 /* InclusionDate.swift */; };
+		91AC7B2825A30FDE00C06AD0 /* RRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB48D15C1D641D45001EE872 /* RRule.swift */; };
+		91AC7B2925A30FDE00C06AD0 /* JavaScriptBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB48D1551D641D45001EE872 /* JavaScriptBridge.swift */; };
+		91AC7B2A25A30FDE00C06AD0 /* RecurrenceRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB48D15B1D641D45001EE872 /* RecurrenceRule.swift */; };
+		91AC7B2B25A30FDE00C06AD0 /* Iterators.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB48D1531D641D45001EE872 /* Iterators.swift */; };
+		91AC7B2F25A30FE400C06AD0 /* nlp.js in Resources */ = {isa = PBXBuildFile; fileRef = EB48D1571D641D45001EE872 /* nlp.js */; };
+		91AC7B3025A30FE400C06AD0 /* rrule.js in Resources */ = {isa = PBXBuildFile; fileRef = EB48D1581D641D45001EE872 /* rrule.js */; };
 		EB48D1611D641D45001EE872 /* EKWeekday+RRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB48D1511D641D45001EE872 /* EKWeekday+RRule.swift */; };
 		EB48D1621D641D45001EE872 /* EKWeekday+RRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB48D1511D641D45001EE872 /* EKWeekday+RRule.swift */; };
 		EB48D1631D641D45001EE872 /* ExclusionDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB48D1521D641D45001EE872 /* ExclusionDate.swift */; };
@@ -30,6 +42,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		91AC7B1825A30FB400C06AD0 /* RRuleSwift_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RRuleSwift_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91AC7B1A25A30FB400C06AD0 /* RRuleSwift_macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RRuleSwift_macOS.h; sourceTree = "<group>"; };
+		91AC7B1B25A30FB400C06AD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D31B13971CA8E02E00D0B863 /* RRuleSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RRuleSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB48D1371D641AD6001EE872 /* RRuleSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RRuleSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB48D1511D641D45001EE872 /* EKWeekday+RRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EKWeekday+RRule.swift"; sourceTree = "<group>"; };
@@ -49,6 +64,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		91AC7B1525A30FB400C06AD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D31B13931CA8E02E00D0B863 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -66,10 +88,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		91AC7B1925A30FB400C06AD0 /* RRuleSwift_macOS */ = {
+			isa = PBXGroup;
+			children = (
+				91AC7B1A25A30FB400C06AD0 /* RRuleSwift_macOS.h */,
+				91AC7B1B25A30FB400C06AD0 /* Info.plist */,
+			);
+			path = RRuleSwift_macOS;
+			sourceTree = "<group>";
+		};
 		D31B138D1CA8E02E00D0B863 = {
 			isa = PBXGroup;
 			children = (
 				EB48D1311D641ABB001EE872 /* Sources */,
+				91AC7B1925A30FB400C06AD0 /* RRuleSwift_macOS */,
 				D31B13981CA8E02E00D0B863 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -79,6 +111,7 @@
 			children = (
 				D31B13971CA8E02E00D0B863 /* RRuleSwift.framework */,
 				EB48D1371D641AD6001EE872 /* RRuleSwift.framework */,
+				91AC7B1825A30FB400C06AD0 /* RRuleSwift_macOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,6 +156,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		91AC7B1325A30FB400C06AD0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91AC7B1C25A30FB400C06AD0 /* RRuleSwift_macOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D31B13941CA8E02E00D0B863 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -142,6 +183,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		91AC7B1725A30FB400C06AD0 /* RRuleSwift_macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91AC7B1F25A30FB400C06AD0 /* Build configuration list for PBXNativeTarget "RRuleSwift_macOS" */;
+			buildPhases = (
+				91AC7B1325A30FB400C06AD0 /* Headers */,
+				91AC7B1425A30FB400C06AD0 /* Sources */,
+				91AC7B1525A30FB400C06AD0 /* Frameworks */,
+				91AC7B1625A30FB400C06AD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RRuleSwift_macOS;
+			productName = RRuleSwift_macOS;
+			productReference = 91AC7B1825A30FB400C06AD0 /* RRuleSwift_macOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		D31B13961CA8E02E00D0B863 /* RRuleSwift-iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D31B139F1CA8E02E00D0B863 /* Build configuration list for PBXNativeTarget "RRuleSwift-iOS" */;
@@ -187,6 +246,11 @@
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = Teambition;
 				TargetAttributes = {
+					91AC7B1725A30FB400C06AD0 = {
+						CreatedOnToolsVersion = 12.2;
+						DevelopmentTeam = DUDA4R5EP5;
+						ProvisioningStyle = Automatic;
+					};
 					D31B13961CA8E02E00D0B863 = {
 						CreatedOnToolsVersion = 7.3;
 						LastSwiftMigration = 1020;
@@ -212,11 +276,21 @@
 			targets = (
 				D31B13961CA8E02E00D0B863 /* RRuleSwift-iOS */,
 				EB48D1361D641AD6001EE872 /* RRuleSwift-watchOS */,
+				91AC7B1725A30FB400C06AD0 /* RRuleSwift_macOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		91AC7B1625A30FB400C06AD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91AC7B2F25A30FE400C06AD0 /* nlp.js in Resources */,
+				91AC7B3025A30FE400C06AD0 /* rrule.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D31B13951CA8E02E00D0B863 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -236,6 +310,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		91AC7B1425A30FB400C06AD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91AC7B2625A30FDE00C06AD0 /* RecurrenceFrequency.swift in Sources */,
+				91AC7B2725A30FDE00C06AD0 /* InclusionDate.swift in Sources */,
+				91AC7B2825A30FDE00C06AD0 /* RRule.swift in Sources */,
+				91AC7B2B25A30FDE00C06AD0 /* Iterators.swift in Sources */,
+				91AC7B2925A30FDE00C06AD0 /* JavaScriptBridge.swift in Sources */,
+				91AC7B2425A30FDE00C06AD0 /* ExclusionDate.swift in Sources */,
+				91AC7B2A25A30FDE00C06AD0 /* RecurrenceRule.swift in Sources */,
+				91AC7B2325A30FDE00C06AD0 /* NSDate+Comparison.swift in Sources */,
+				91AC7B2525A30FDE00C06AD0 /* EKWeekday+RRule.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D31B13921CA8E02E00D0B863 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -269,6 +359,68 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		91AC7B1D25A30FB400C06AD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = DUDA4R5EP5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = RRuleSwift_macOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "Teambition.RRuleSwift-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		91AC7B1E25A30FB400C06AD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = DUDA4R5EP5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = RRuleSwift_macOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "Teambition.RRuleSwift-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		D31B139D1CA8E02E00D0B863 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -474,6 +626,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		91AC7B1F25A30FB400C06AD0 /* Build configuration list for PBXNativeTarget "RRuleSwift_macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91AC7B1D25A30FB400C06AD0 /* Debug */,
+				91AC7B1E25A30FB400C06AD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D31B13911CA8E02E00D0B863 /* Build configuration list for PBXProject "RRuleSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

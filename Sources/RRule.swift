@@ -27,6 +27,7 @@ public struct RRule {
         let dateFormatter = DateFormatter()
         dateFormatter.timeZone = TimeZone(secondsFromGMT: 0)
         dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'"
+        dateFormatter.locale = Locale(identifier: "en_US_POSIX")
         return dateFormatter
     }()
 
